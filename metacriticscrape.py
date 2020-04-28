@@ -18,9 +18,9 @@ def list_to_string(s):
 
 meta_score_block = []  # store metascore block
 user_score_block = []  # store user score block
-
 summary = []  # store plot summary
 stuff = []
+votes = []  # store votes
 
 url = "https://www.metacritic.com/movie/the-emoji-movie"
 
