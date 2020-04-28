@@ -3,7 +3,7 @@ BEGIN {
   ofile = "/tmp/sey13.list.json"
   # ofile = "list.json"
   print "[" > ofile
-  # if the user searches for "black swan" (no quotes"
+  # if the user searches for "black swan" (no quotes)
   # user input will be of the form "black+swan" (no quotes)
   userinput = ENVIRON["QUERY_STRING"]
   # userinput = "black+swan";
