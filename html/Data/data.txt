@@ -1,0 +1,5 @@
+{ label: "Adam",   y:45},
+{ label: "Bob",   y:13},
+{ label: "Primo1",   y:2},
+{ label: "Primo",   y:1},
+{ label: "Kaneko",   y:9}

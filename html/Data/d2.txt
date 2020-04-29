@@ -1,0 +1,15 @@
+                           ]
+                      }
+                    ]
+           });
+
+            chart.render();
+          }
+  </script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+ </head>
+ <body>
+    <div id="chartContainer" style="height: 380px; width: 85%;">
+       </div>
+ </body>
+</html>

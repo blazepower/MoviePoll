@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <script type="text/javascript">
+       window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+
+            title:{
+text: "Poll Result"                   },
+		axisX:{
+			title: "Movie Title",
+			interval: 1
+		},
+		axisY:{
+                        title: "# Votes "
+                },
+            data: [//array of dataSeries              
+                     { //dataSeries object
+
+                        /*** Change type "column" to "bar", "area", "line" or "pie"***/
+                        type: "bar",
+                        dataPoints: [
